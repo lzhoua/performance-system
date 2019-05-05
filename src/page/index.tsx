@@ -1,5 +1,6 @@
 import React, {  } from 'react';
 import { Layout, Menu, Icon } from 'antd';
+import Index from './index/index'
 import './index.scss';
 
 const { Header, Sider, Content } = Layout;
@@ -78,7 +79,7 @@ export default class ContainPage extends React.Component<{}, IState> {
             margin: '24px 16px', padding: 24, background: '#fff', minHeight: 280,
           }}
           >
-            Content
+            <Index/>
           </Content>
         </Layout>
       </Layout>

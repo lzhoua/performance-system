@@ -1,9 +1,9 @@
 @import '~antd/dist/antd.css';
 
-.App {
+/* .App {
   height: 100vh;
   overflow: hidden;
-}
+} */
 
 /* ant 公共样式 */
 .ant-layout.ant-layout-has-sider { height: 100vh; }
