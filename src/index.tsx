@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import performance from './utils/performance'
+
+console.log(performance())
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

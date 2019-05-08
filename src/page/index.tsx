@@ -20,7 +20,7 @@ const SideBar = () => {
     {
       id: 1,
       icon: 'user',
-      name: '页面一'
+      name: '性能总览'
     }, {
       id: 2,
       icon: 'video-camera',
